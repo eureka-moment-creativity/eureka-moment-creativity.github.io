@@ -35,3 +35,27 @@
   position: absolute;
   bottom: -1px;
 }
+
+.home-section-title {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: #064976;
+}
+
+.home-screenshot {
+  height: 24rem;
+}
+
+.home-research-picture {
+  height: 15rem;
+}
+
+.home-creative-master-picture {
+  max-width: 500px;
+  height: auto;
+}
+
+.home-card {
+  height: 24rem;
+}

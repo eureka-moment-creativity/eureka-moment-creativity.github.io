@@ -6,6 +6,8 @@
     <title>Eureka Moment App</title>
     <link href="css/my_styles.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- Animate On Scroll Library --> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Google Tag Manager -->
     <script>
@@ -16,6 +18,7 @@
         })(window,document,'script','dataLayer','GTM-KCZ3RS8D');
     </script>
     <!-- End Google Tag Manager -->
+
   </head>
   <body>
     <!-- Banner -->
@@ -32,31 +35,31 @@
 
     <!-- Section1 -->
     <div class="container">
-        <h2 class="text-center">How it Work?</h2>
-        <div class="row mx-auto">
-                <div class="col-md">
-                    <img src="assets/step1.png" alt="Step 1" class="img-fluid">
-                    <ol>
+        <h2 class="home-section-title text-center">How it Work?</h2>
+        <div class="row d-flex justify-content-center">
+                <div data-aos="fade-up" data-aos-delay="200" class="d-flex flex-column align-items-center col-md-4 aos-init aos-animate">
+                    <img src="assets/step1.png" alt="Step 1" class="home-screenshot">
+                    <ol class="mt-4" style="color: #064976;">
                         <li>
-                            When you feel uncreative, press the "Start" button to help a exhausted firefly.
+                            <p>When you feel uncreative, press the "Start" button to help a exhausted firefly.</p>
                         </li>
                     </ol>
                     
                 </div>
-                <div class="col-md">
-                    <img src="assets/step2.png" alt="Step 2" class="img-fluid">
-                    <ol start="2">
+                <div data-aos="fade-up" data-aos-delay="400" class="d-flex flex-column align-items-center col-md-4 aos-init aos-animate">
+                    <img src="assets/step2.png" alt="Step 2" class="home-screenshot">
+                    <ol start="2" class="mt-4" style="color: #0C84C6;">
                         <li>
-                            Place your finger on the screen and charge it through the temperature of your finger.
+                            <p>Place your finger on the screen and charge it through the temperature of your finger.</p>
                         </li>
                     </ol>
                     
                 </div>
-                <div class="col-md">
-                    <img src="assets/step3.png" alt="Step 3" class="img-fluid">
-                    <ol start="3">
+                <div data-aos="zoom-in-up" data-aos-delay="600" class="d-flex flex-column align-items-center col-md-4 aos-init aos-animate">
+                    <img src="assets/step3.png" alt="Step 3" class="home-screenshot">
+                    <ol start="3" class="mt-4" style="color: #2EAFE0;">
                         <li>
-                            As Eureka wakes you up, you help both the firefly and you to regain energy and creativity.
+                            <p>As Eureka wakes you up, you help both the firefly and you to regain energy and creativity.</p>
                         </li>
                     </ol>
                 </div>
@@ -64,107 +67,133 @@
     </div>
     <!-- Section2 -->
     <div class="container">
-        <h2 class="text-center">Scientifically Proven</h2>
-        <p>
+        <h2 class="home-section-title text-center">Scientifically Proven</h2>
+        <p class="fw-light">
             A study published in the journal Science Advances has extensively investigated the influence of the N1 stage of sleep on creativity and problem-solving abilities. The research focused on the phenomenon known as the 'Eureka moment', a term derived from the Greek word meaning "I have found it," which refers to the instant in the cognitive process where individuals suddenly experience a significant insight. Eureka moment occurs in N1 sleep stage. N1 stage often marked by a moment of relaxation, such as the relaxing of finger muscles.
         </p>
-        <p>
+        <p class="fw-light">
             The study revealed two primary findings:
         </p>
         <ol>
-            <li>Subjects exhibited improved problem-solving performance following the N1 sleep stage.</li>
-            <li>There was a notable difference in the time taken to solve problems before and after reaching the Eureka moment.</li>
+            <li class="fw-light">Subjects exhibited improved problem-solving performance following the N1 sleep stage.</li>
+            <li class="fw-light">There was a notable difference in the time taken to solve problems before and after reaching the Eureka moment.</li>
         </ol>
         <div class="row mx-auto">
-            <div class="col-md">
-                <div class="text-center">
+            <div data-aos="fade-right" data-aos-delay="200" class="d-flex flex-column align-items-center col-md-6 aos-init aos-animate">
+                <div class="text-center fs-4 mb-3" style="color: #5f3a04;">
                     More Problems Solved
                 </div>
-                <img src="./assets/more_problem_solved.png" class="img-fluid">
+                <img src="./assets/more_problem_solved.png" class="home-research-picture">
             </div>
-            <div class="col-md">
-                <div class="text-center">
+            <div data-aos="fade-left" data-aos-delay="200" class="d-flex flex-column align-items-center col-md-6 aos-init aos-animate">
+                <div class="text-center fs-4 mb-3" style="color: #064976;">
                     Less Solving Time
                 </div>
-                <img src="./assets/less_solve_time.png" class="img-fluid">
+                <img src="./assets/less_solve_time.png" class="home-research-picture">
             </div>
         </div>
-        <p>
-            Our App — Eureka Moment is designed to assist users in waking up during the N1 sleep stage to maximize these benefits.
+        <p class="p-3 my-5 bg-secondary text-white text-lg-center">
+            Our App — <strong>Eureka Moment</strong> is designed to assist users in waking up during the N1 sleep stage to maximize these benefits.
         </p>
     </div>
     <!-- Section3 -->
     <div class="container-fluid">
-        <h2 class="text-center">Used by Creative Masters</h2>
-        <div class="row">
-            <div class="col">
+        <h2 class="home-section-title text-center">Used by Creative Masters</h2>
+        <div class="row align-items-md-center">
+            <div data-aos="fade-right" data-aos-delay="200" class="col-md-6 col-xl-4 aos-init aos-animate">
                 <img src="./assets/dali.png" class="img-fluid">
-                <p>
-                    Thomas Edison
-                </p>
-                <p>
-                    Thomas Edison, known for holding 1,093 patents[3], enhanced his creativity using the hypnagogic state, a semi-conscious phase between sleep and wakefulness. Preferring short sleep, he napped with balls in his hands, dropping them as he dozed off, a method to capture creative thoughts at peak moments. This technique significantly boosted his inventive output, contributing to his legacy as a pioneer in innovation and productivity[4].
-                </p>
             </div>
-            <div class="col">
-                <p>
+            <div class="col-md-6 col-xl-8 mx-auto p-md-5">
+                <p class="text-center text-md-start fs-3 mt-4">
                     Salvador Dalí
                 </p>
-                <p>
-                    Salvador Dalí boosted his creativity with the "Dalí Sleep Method," a technique where he held a key over a metal plate while dozing in a chair, awakening himself as he began to sleep when the key dropped. This method allowed him to access dream-like, subconscious thoughts. It significantly influenced his productivity: Dalí produced at least 1,178 paintings[1], with some sources citing over 1,600[2].
+                <p class="fw-light">
+                    Salvador Dalí boosted his creativity with the "Dalí Sleep Method," a technique where he held a key over a metal plate while dozing in a chair, awakening himself as he began to sleep when the key dropped.
                 </p>
+                <p class="fw-light">
+                    This method allowed him to access dream-like, subconscious thoughts. It significantly influenced his productivity: Dalí produced at least 1,178 paintings[1], with some sources citing over 1,600[2].
+                </p>
+            </div>
+            
+        </div>
+        <div class="row align-items-md-center">
+            <div data-aos="fade-left" data-aos-delay="200" class="col-md-6 col-xl-4 order-md-2 aos-init aos-animate">
                 <img src="./assets/edison.png" class="img-fluid">
             </div>
-          </div>
+            <div class="mx-auto p-md-5 col-md-6 col-xl-8 order-md-1">
+                <p class="text-center text-md-start fs-3 mt-4">
+                    Thomas Edison
+                </p>
+                <p class="fw-light">
+                    Thomas Edison, known for holding 1,093 patents[3], enhanced his creativity using the hypnagogic state, a semi-conscious phase between sleep and wakefulness.
+                </p>
+                <p class="fw-light">
+                    Preferring short sleep, he napped with balls in his hands, dropping them as he dozed off, a method to capture creative thoughts at peak moments.
+                </p>
+                <p class="fw-light">
+                    This technique significantly boosted his inventive output, contributing to his legacy as a pioneer in innovation and productivity[4].
+                </p>
+            </div>
+        </div>
     </div>
     <!-- Section4 -->
     <div class="container">
-        <h2 class="text-center">Unlock your creativity for only $0.99!</h2>
-        <div class="row">
-            <div class="col">
-                <div class="card">
+        <h2 class="home-section-title text-center">Unlock your creativity for only $0.99!</h2>
+        <div class="row mx-5 mx-md-0">
+            <div class=" mb-5 col-md-3">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Quick</h5>
+                        <h5 class="card-title text-center" style="color: #0C84C6;">Quick</h5>
                         <img src="./assets/quick.png" class="img-fluid">
-                        <p class="card-text">Sessions of 7-15 minutes.</p>
+                        <p class="card-text text-center">Sessions of 7-15 minutes.</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
+            <div class="mb-5 col-md-3">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Simple</h5>
+                        <h5 class="card-title text-center" style="color: #0C84C6;">Simple</h5>
                         <img src="./assets/simple.png" class="img-fluid">
-                        <p class="card-text">You can do it at anywhere.</p>
+                        <p class="card-text text-center">You can do it at anywhere.</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
+            <div class="mb-5 col-md-3">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Relaxing</h5>
+                        <h5 class="card-title text-center" style="color: #0C84C6;">Relaxing</h5>
                         <img src="./assets/relaxing.png" class="img-fluid">
-                        <p class="card-text">Reduce anxiety and get in a good mood.</p>
+                        <p class="card-text text-center">Reduce anxiety and get in a good mood.</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
+            <div class="mb-5 col-md-3">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Effective</h5>
+                        <h5 class="card-title text-center" style="color: #0C84C6;">Effective</h5>
                         <img src="./assets/effective.png" class="img-fluid">
-                        <p class="card-text">Your creativity is backed by latest science discovery.</p>
+                        <p class="card-text text-center">Your creativity is backed by latest science discovery.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="text-center">
-            Button
+            <button class="btn btn-lg py-3 px-5 btn-primary" onclick="openGoogleForm()">Get Started Now!</button>
         </div>
+        <div class="container">
+            <footer class="py-3 my-4">
+              <p class="text-center text-muted">© 2024 Eureka Moment, Inc</p>
+            </footer>
+          </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- Animate On Scroll Library --> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
